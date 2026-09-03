@@ -1,0 +1,5 @@
+# Pipeline modules will go here
+# - evidence_retrieval.py
+# - evidence_verification.py
+# - rule_engine.py
+# - llm_writer.py

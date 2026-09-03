@@ -1,0 +1,427 @@
+customer_id,transaction_id,timestamp,channel,message_summary
+CUST_000244,TXN_00000000,2026-05-17 02:13:35,phone,package not delivered
+CUST_000313,TXN_00000002,2026-06-18 02:13:35,phone,package not delivered
+CUST_000522,TXN_00000003,2026-04-04 02:13:35,support_ticket,where is my order
+CUST_000045,TXN_00000006,2026-06-27 02:13:35,chat,return initiated
+CUST_000001,TXN_00000007,2026-06-15 02:13:35,support_ticket,complained item damaged
+CUST_000431,TXN_00000010,2026-07-04 02:13:35,chat,package not delivered
+CUST_000556,TXN_00000015,2026-04-06 02:13:35,support_ticket,thanked for fast shipping
+CUST_000420,TXN_00000016,2026-07-12 02:13:35,email,confirmed delivery received
+CUST_000366,TXN_00000017,2026-04-05 02:13:35,phone,refund requested
+CUST_000480,TXN_00000018,2026-04-12 02:13:35,support_ticket,when will order arrive
+CUST_000177,TXN_00000023,2026-04-19 02:13:35,support_ticket,package not delivered
+CUST_000384,TXN_00000025,2026-05-21 02:13:35,email,where is my order
+CUST_000557,TXN_00000028,2026-03-27 02:13:35,chat,asked for tracking number
+CUST_000425,TXN_00000030,2026-03-25 02:13:35,email,shipment never arrived
+CUST_000456,TXN_00000033,2026-08-17 02:13:35,phone,order not received
+CUST_000514,TXN_00000036,2026-06-25 02:13:35,support_ticket,still waiting for delivery
+CUST_000543,TXN_00000038,2026-04-06 02:13:35,phone,cancellation requested
+CUST_000099,TXN_00000039,2026-05-15 02:13:35,email,item not as described
+CUST_000143,TXN_00000045,2026-08-01 02:13:35,support_ticket,item not as described
+CUST_000161,TXN_00000048,2026-06-17 02:13:35,phone,package not delivered
+CUST_000036,TXN_00000050,2026-07-15 02:13:35,support_ticket,refund requested
+CUST_000573,TXN_00000051,2026-03-14 02:13:35,phone,asked for tracking number
+CUST_000044,TXN_00000054,2026-07-11 02:13:35,support_ticket,still waiting for delivery
+CUST_000128,TXN_00000056,2026-05-01 02:13:35,email,delivery date inquiry
+CUST_000306,TXN_00000063,2026-04-05 02:13:35,email,package not delivered
+CUST_000292,TXN_00000065,2026-07-27 02:13:35,phone,shipment never arrived
+CUST_000512,TXN_00000067,2026-07-17 02:13:35,phone,refund requested
+CUST_000362,TXN_00000068,2026-05-14 02:13:35,chat,still waiting for delivery
+CUST_000254,TXN_00000070,2026-03-29 02:13:35,email,still waiting for delivery
+CUST_000539,TXN_00000073,2026-06-17 02:13:35,support_ticket,confirmed delivery received
+CUST_000138,TXN_00000074,2026-08-05 02:13:35,email,still waiting for delivery
+CUST_000454,TXN_00000075,2026-04-09 02:13:35,phone,confirmed delivery received
+CUST_000226,TXN_00000076,2026-05-06 02:13:35,email,complained item damaged
+CUST_000348,TXN_00000079,2026-07-25 02:13:35,email,inquired about shipping status
+CUST_000139,TXN_00000083,2026-04-18 02:13:35,support_ticket,still waiting for delivery
+CUST_000314,TXN_00000084,2026-06-29 02:13:35,support_ticket,order not received
+CUST_000299,TXN_00000086,2026-05-04 02:13:35,chat,shipment never arrived
+CUST_000440,TXN_00000089,2026-06-11 02:13:35,email,confirmed delivery received
+CUST_000412,TXN_00000090,2026-05-27 02:13:35,chat,when will order arrive
+CUST_000507,TXN_00000093,2026-05-15 02:13:35,chat,where is my order
+CUST_000140,TXN_00000094,2026-05-08 02:13:35,support_ticket,confirmed delivery received
+CUST_000486,TXN_00000096,2026-04-25 02:13:35,support_ticket,still waiting for delivery
+CUST_000513,TXN_00000100,2026-08-11 02:13:35,phone,still waiting for delivery
+CUST_000565,TXN_00000108,2026-07-11 02:13:35,support_ticket,confirmed delivery received
+CUST_000598,TXN_00000109,2026-06-29 02:13:35,support_ticket,package not delivered
+CUST_000214,TXN_00000110,2026-07-26 02:13:35,support_ticket,product quality issue
+CUST_000347,TXN_00000111,2026-07-21 02:13:35,chat,cancellation requested
+CUST_000537,TXN_00000116,2026-06-26 02:13:35,phone,asked for tracking number
+CUST_000112,TXN_00000117,2026-08-01 02:13:35,email,shipment never arrived
+CUST_000217,TXN_00000119,2026-06-21 02:13:35,chat,asked about delivery delay
+CUST_000262,TXN_00000120,2026-03-23 02:13:35,chat,inquired about shipping status
+CUST_000145,TXN_00000126,2026-07-31 02:13:35,email,cancellation requested
+CUST_000033,TXN_00000133,2026-05-08 02:13:35,email,confirmed delivery received
+CUST_000459,TXN_00000135,2026-04-24 02:13:35,email,still waiting for delivery
+CUST_000463,TXN_00000136,2026-04-26 02:13:35,support_ticket,cancellation requested
+CUST_000326,TXN_00000139,2026-03-26 02:13:35,email,asked about delivery delay
+CUST_000493,TXN_00000144,2026-07-22 02:13:35,chat,inquired about shipping status
+CUST_000515,TXN_00000145,2026-08-11 02:13:35,support_ticket,shipment never arrived
+CUST_000483,TXN_00000148,2026-03-18 02:13:35,chat,when will order arrive
+CUST_000344,TXN_00000149,2026-07-18 02:13:35,chat,when will order arrive
+CUST_000026,TXN_00000150,2026-04-16 02:13:35,email,refund requested
+CUST_000552,TXN_00000152,2026-06-14 02:13:35,chat,shipment never arrived
+CUST_000051,TXN_00000154,2026-07-19 02:13:35,phone,confirmed delivery received
+CUST_000149,TXN_00000155,2026-04-15 02:13:35,chat,refund requested
+CUST_000130,TXN_00000162,2026-07-09 02:13:35,support_ticket,cancellation requested
+CUST_000210,TXN_00000164,2026-05-05 02:13:35,phone,asked for tracking number
+CUST_000270,TXN_00000167,2026-05-27 02:13:35,support_ticket,confirmed delivery received
+CUST_000207,TXN_00000168,2026-06-06 02:13:35,phone,item not as described
+CUST_000550,TXN_00000169,2026-04-21 02:13:35,phone,still waiting for delivery
+CUST_000580,TXN_00000171,2026-04-05 02:13:35,support_ticket,product quality issue
+CUST_000159,TXN_00000172,2026-07-08 02:13:35,email,product quality issue
+CUST_000481,TXN_00000173,2026-04-22 02:13:35,chat,product quality issue
+CUST_000037,TXN_00000174,2026-06-03 02:13:35,email,item not as described
+CUST_000539,TXN_00000175,2026-05-28 02:13:35,support_ticket,where is my order
+CUST_000403,TXN_00000176,2026-08-25 02:13:35,support_ticket,order not received
+CUST_000410,TXN_00000179,2026-05-05 02:13:35,email,cancellation requested
+CUST_000355,TXN_00000181,2026-07-24 02:13:35,support_ticket,where is my order
+CUST_000334,TXN_00000182,2026-05-17 02:13:35,support_ticket,confirmed delivery received
+CUST_000058,TXN_00000185,2026-07-15 02:13:35,chat,delivery date inquiry
+CUST_000357,TXN_00000190,2026-03-12 02:13:35,phone,cancellation requested
+CUST_000314,TXN_00000192,2026-04-26 02:13:35,support_ticket,cancellation requested
+CUST_000057,TXN_00000195,2026-05-14 02:13:35,support_ticket,delivery date inquiry
+CUST_000423,TXN_00000196,2026-05-09 02:13:35,support_ticket,when will order arrive
+CUST_000402,TXN_00000203,2026-07-18 02:13:35,support_ticket,still waiting for delivery
+CUST_000083,TXN_00000204,2026-05-25 02:13:35,chat,package not delivered
+CUST_000232,TXN_00000208,2026-06-13 02:13:35,support_ticket,refund requested
+CUST_000107,TXN_00000210,2026-03-27 02:13:35,support_ticket,delivery date inquiry
+CUST_000361,TXN_00000211,2026-06-09 02:13:35,chat,return initiated
+CUST_000055,TXN_00000212,2026-05-19 02:13:35,email,package not delivered
+CUST_000317,TXN_00000213,2026-08-10 02:13:35,support_ticket,still waiting for delivery
+CUST_000387,TXN_00000215,2026-05-29 02:13:35,chat,thanked for fast shipping
+CUST_000304,TXN_00000218,2026-05-09 02:13:35,chat,package not delivered
+CUST_000545,TXN_00000220,2026-05-18 02:13:35,chat,order not received
+CUST_000284,TXN_00000221,2026-07-14 02:13:35,chat,where is my order
+CUST_000427,TXN_00000225,2026-06-02 02:13:35,chat,order not received
+CUST_000371,TXN_00000226,2026-08-06 02:13:35,chat,when will order arrive
+CUST_000392,TXN_00000228,2026-08-11 02:13:35,chat,where is my order
+CUST_000409,TXN_00000229,2026-04-19 02:13:35,chat,thanked for fast shipping
+CUST_000270,TXN_00000231,2026-04-20 02:13:35,email,refund requested
+CUST_000525,TXN_00000238,2026-03-31 02:13:35,chat,cancellation requested
+CUST_000293,TXN_00000239,2026-07-12 02:13:35,email,asked about delivery delay
+CUST_000428,TXN_00000244,2026-04-09 02:13:35,email,delivery date inquiry
+CUST_000356,TXN_00000245,2026-05-11 02:13:35,chat,package not delivered
+CUST_000139,TXN_00000248,2026-03-25 02:13:35,email,return initiated
+CUST_000593,TXN_00000250,2026-04-24 02:13:35,support_ticket,refund requested
+CUST_000051,TXN_00000253,2026-04-19 02:13:35,support_ticket,return initiated
+CUST_000485,TXN_00000254,2026-08-07 02:13:35,support_ticket,thanked for fast shipping
+CUST_000234,TXN_00000255,2026-05-26 02:13:35,email,return initiated
+CUST_000249,TXN_00000259,2026-07-29 02:13:35,chat,where is my order
+CUST_000072,TXN_00000262,2026-04-25 02:13:35,phone,cancellation requested
+CUST_000202,TXN_00000264,2026-07-20 02:13:35,phone,where is my order
+CUST_000549,TXN_00000265,2026-05-24 02:13:35,email,still waiting for delivery
+CUST_000257,TXN_00000266,2026-07-23 02:13:35,phone,refund requested
+CUST_000128,TXN_00000268,2026-05-10 02:13:35,chat,return initiated
+CUST_000403,TXN_00000272,2026-03-20 02:13:35,email,cancellation requested
+CUST_000187,TXN_00000274,2026-04-20 02:13:35,email,where is my order
+CUST_000179,TXN_00000275,2026-08-07 02:13:35,chat,still waiting for delivery
+CUST_000056,TXN_00000278,2026-06-28 02:13:35,email,confirmed delivery received
+CUST_000233,TXN_00000280,2026-08-13 02:13:35,support_ticket,cancellation requested
+CUST_000218,TXN_00000281,2026-05-20 02:13:35,chat,asked about delivery delay
+CUST_000371,TXN_00000283,2026-03-09 02:13:35,email,inquired about shipping status
+CUST_000500,TXN_00000284,2026-07-28 02:13:35,chat,shipment never arrived
+CUST_000362,TXN_00000285,2026-04-14 02:13:35,email,refund requested
+CUST_000335,TXN_00000290,2026-06-02 02:13:35,support_ticket,thanked for fast shipping
+CUST_000207,TXN_00000292,2026-04-13 02:13:35,support_ticket,package not delivered
+CUST_000105,TXN_00000294,2026-06-16 02:13:35,support_ticket,still waiting for delivery
+CUST_000531,TXN_00000298,2026-04-02 02:13:35,phone,cancellation requested
+CUST_000236,TXN_00000301,2026-08-18 02:13:35,phone,where is my order
+CUST_000214,TXN_00000302,2026-04-13 02:13:35,support_ticket,thanked for fast shipping
+CUST_000484,TXN_00000304,2026-03-28 02:13:35,support_ticket,cancellation requested
+CUST_000573,TXN_00000305,2026-05-22 02:13:35,email,confirmed delivery received
+CUST_000330,TXN_00000306,2026-07-27 02:13:35,email,refund requested
+CUST_000338,TXN_00000307,2026-08-13 02:13:35,email,where is my order
+CUST_000319,TXN_00000309,2026-03-27 02:13:35,phone,delivery date inquiry
+CUST_000492,TXN_00000310,2026-04-15 02:13:35,email,package not delivered
+CUST_000004,TXN_00000311,2026-05-19 02:13:35,phone,where is my order
+CUST_000336,TXN_00000318,2026-03-23 02:13:35,support_ticket,return initiated
+CUST_000090,TXN_00000319,2026-06-08 02:13:35,support_ticket,asked about delivery delay
+CUST_000409,TXN_00000320,2026-06-08 02:13:35,email,item not as described
+CUST_000255,TXN_00000321,2026-04-12 02:13:35,phone,cancellation requested
+CUST_000538,TXN_00000322,2026-07-12 02:13:35,email,return initiated
+CUST_000012,TXN_00000323,2026-08-02 02:13:35,email,package not delivered
+CUST_000151,TXN_00000324,2026-06-27 02:13:35,chat,order not received
+CUST_000181,TXN_00000326,2026-05-11 02:13:35,support_ticket,delivery date inquiry
+CUST_000432,TXN_00000328,2026-05-11 02:13:35,support_ticket,where is my order
+CUST_000408,TXN_00000331,2026-04-04 02:13:35,phone,confirmed delivery received
+CUST_000126,TXN_00000332,2026-06-14 02:13:35,chat,order not received
+CUST_000501,TXN_00000333,2026-06-17 02:13:35,support_ticket,refund requested
+CUST_000271,TXN_00000334,2026-06-02 02:13:35,chat,asked for tracking number
+CUST_000464,TXN_00000335,2026-08-03 02:13:35,chat,still waiting for delivery
+CUST_000457,TXN_00000336,2026-07-02 02:13:35,phone,package not delivered
+CUST_000317,TXN_00000340,2026-03-27 02:13:35,chat,asked about delivery delay
+CUST_000589,TXN_00000342,2026-06-29 02:13:35,support_ticket,refund requested
+CUST_000203,TXN_00000344,2026-06-08 02:13:35,email,still waiting for delivery
+CUST_000134,TXN_00000349,2026-06-14 02:13:35,phone,order not received
+CUST_000166,TXN_00000350,2026-07-21 02:13:35,email,thanked for fast shipping
+CUST_000405,TXN_00000353,2026-08-02 02:13:35,chat,shipment never arrived
+CUST_000386,TXN_00000354,2026-07-11 02:13:35,support_ticket,package not delivered
+CUST_000166,TXN_00000355,2026-04-06 02:13:35,chat,confirmed delivery received
+CUST_000583,TXN_00000356,2026-07-08 02:13:35,support_ticket,confirmed delivery received
+CUST_000155,TXN_00000359,2026-06-05 02:13:35,chat,where is my order
+CUST_000177,TXN_00000360,2026-05-28 02:13:35,phone,refund requested
+CUST_000433,TXN_00000361,2026-03-31 02:13:35,chat,when will order arrive
+CUST_000416,TXN_00000362,2026-04-26 02:13:35,chat,order not received
+CUST_000503,TXN_00000363,2026-07-14 02:13:35,email,when will order arrive
+CUST_000132,TXN_00000364,2026-04-09 02:13:35,chat,inquired about shipping status
+CUST_000040,TXN_00000365,2026-07-13 02:13:35,email,where is my order
+CUST_000185,TXN_00000367,2026-08-01 02:13:35,chat,order not received
+CUST_000194,TXN_00000371,2026-06-16 02:13:35,email,order not received
+CUST_000366,TXN_00000374,2026-04-19 02:13:35,support_ticket,complained item damaged
+CUST_000507,TXN_00000375,2026-05-13 02:13:35,phone,complained item damaged
+CUST_000262,TXN_00000377,2026-06-15 02:13:35,email,where is my order
+CUST_000284,TXN_00000380,2026-06-06 02:13:35,chat,item not as described
+CUST_000364,TXN_00000381,2026-08-13 02:13:35,support_ticket,item not as described
+CUST_000193,TXN_00000382,2026-07-07 02:13:35,email,complained item damaged
+CUST_000008,TXN_00000383,2026-06-20 02:13:35,chat,where is my order
+CUST_000456,TXN_00000388,2026-05-03 02:13:35,support_ticket,where is my order
+CUST_000208,TXN_00000390,2026-04-09 02:13:35,phone,product quality issue
+CUST_000559,TXN_00000395,2026-04-24 02:13:35,support_ticket,refund requested
+CUST_000406,TXN_00000396,2026-07-21 02:13:35,support_ticket,where is my order
+CUST_000274,TXN_00000398,2026-05-10 02:13:35,chat,return initiated
+CUST_000074,TXN_00000399,2026-05-04 02:13:35,email,cancellation requested
+CUST_000552,TXN_00000403,2026-06-09 02:13:35,chat,delivery date inquiry
+CUST_000402,TXN_00000404,2026-07-06 02:13:35,chat,return initiated
+CUST_000338,TXN_00000407,2026-04-27 02:13:35,chat,return initiated
+CUST_000072,TXN_00000408,2026-03-29 02:13:35,chat,thanked for fast shipping
+CUST_000160,TXN_00000411,2026-06-01 02:13:35,phone,delivery date inquiry
+CUST_000576,TXN_00000414,2026-06-20 02:13:35,email,order not received
+CUST_000523,TXN_00000416,2026-07-16 02:13:35,support_ticket,thanked for fast shipping
+CUST_000140,TXN_00000417,2026-04-29 02:13:35,email,cancellation requested
+CUST_000377,TXN_00000419,2026-07-04 02:13:35,chat,refund requested
+CUST_000421,TXN_00000421,2026-04-18 02:13:35,support_ticket,item not as described
+CUST_000517,TXN_00000423,2026-04-13 02:13:35,phone,product quality issue
+CUST_000263,TXN_00000424,2026-05-14 02:13:35,email,complained item damaged
+CUST_000212,TXN_00000426,2026-07-24 02:13:35,support_ticket,shipment never arrived
+CUST_000165,TXN_00000428,2026-03-20 02:13:35,phone,confirmed delivery received
+CUST_000027,TXN_00000429,2026-03-09 02:13:35,support_ticket,delivery date inquiry
+CUST_000590,TXN_00000430,2026-05-13 02:13:35,email,where is my order
+CUST_000251,TXN_00000431,2026-06-17 02:13:35,support_ticket,asked for tracking number
+CUST_000369,TXN_00000433,2026-03-18 02:13:35,chat,complained item damaged
+CUST_000142,TXN_00000436,2026-07-21 02:13:35,phone,cancellation requested
+CUST_000416,TXN_00000439,2026-07-27 02:13:35,phone,package not delivered
+CUST_000352,TXN_00000442,2026-04-10 02:13:35,support_ticket,asked for tracking number
+CUST_000098,TXN_00000444,2026-05-11 02:13:35,chat,thanked for fast shipping
+CUST_000385,TXN_00000445,2026-06-04 02:13:35,phone,cancellation requested
+CUST_000043,TXN_00000446,2026-05-14 02:13:35,email,when will order arrive
+CUST_000372,TXN_00000447,2026-06-17 02:13:35,support_ticket,return initiated
+CUST_000470,TXN_00000448,2026-07-09 02:13:35,support_ticket,return initiated
+CUST_000111,TXN_00000449,2026-06-24 02:13:35,phone,order not received
+CUST_000431,TXN_00000450,2026-03-09 02:13:35,email,order not received
+CUST_000458,TXN_00000452,2026-05-15 02:13:35,phone,still waiting for delivery
+CUST_000100,TXN_00000457,2026-06-08 02:13:35,chat,delivery date inquiry
+CUST_000410,TXN_00000462,2026-07-31 02:13:35,chat,shipment never arrived
+CUST_000217,TXN_00000464,2026-08-08 02:13:35,support_ticket,package not delivered
+CUST_000280,TXN_00000468,2026-06-13 02:13:35,email,inquired about shipping status
+CUST_000550,TXN_00000477,2026-05-01 02:13:35,phone,cancellation requested
+CUST_000508,TXN_00000479,2026-07-26 02:13:35,chat,refund requested
+CUST_000114,TXN_00000480,2026-03-19 02:13:35,chat,thanked for fast shipping
+CUST_000342,TXN_00000481,2026-05-28 02:13:35,chat,cancellation requested
+CUST_000133,TXN_00000482,2026-08-02 02:13:35,email,delivery date inquiry
+CUST_000376,TXN_00000485,2026-04-04 02:13:35,email,still waiting for delivery
+CUST_000546,TXN_00000486,2026-05-20 02:13:35,email,product quality issue
+CUST_000293,TXN_00000487,2026-05-16 02:13:35,chat,where is my order
+CUST_000575,TXN_00000490,2026-05-04 02:13:35,email,return initiated
+CUST_000033,TXN_00000495,2026-07-12 02:13:35,chat,shipment never arrived
+CUST_000115,TXN_00000499,2026-07-06 02:13:35,support_ticket,package not delivered
+CUST_000120,TXN_00000500,2026-07-25 02:13:35,support_ticket,where is my order
+CUST_000413,TXN_00000503,2026-08-10 02:13:35,email,package not delivered
+CUST_000238,TXN_00000506,2026-05-27 02:13:35,email,shipment never arrived
+CUST_000226,TXN_00000511,2026-07-17 02:13:35,support_ticket,shipment never arrived
+CUST_000011,TXN_00000516,2026-07-31 02:13:35,support_ticket,thanked for fast shipping
+CUST_000006,TXN_00000518,2026-05-22 02:13:35,phone,thanked for fast shipping
+CUST_000260,TXN_00000519,2026-05-10 02:13:35,email,refund requested
+CUST_000487,TXN_00000521,2026-04-23 02:13:35,phone,still waiting for delivery
+CUST_000458,TXN_00000522,2026-05-12 02:13:35,phone,asked about delivery delay
+CUST_000155,TXN_00000526,2026-08-06 02:13:35,chat,return initiated
+CUST_000365,TXN_00000528,2026-07-05 02:13:35,email,inquired about shipping status
+CUST_000280,TXN_00000529,2026-07-26 02:13:35,support_ticket,order not received
+CUST_000021,TXN_00000530,2026-08-09 02:13:35,email,when will order arrive
+CUST_000315,TXN_00000532,2026-04-20 02:13:35,phone,inquired about shipping status
+CUST_000528,TXN_00000534,2026-07-18 02:13:35,support_ticket,where is my order
+CUST_000267,TXN_00000536,2026-04-24 02:13:35,phone,still waiting for delivery
+CUST_000268,TXN_00000537,2026-06-30 02:13:35,support_ticket,item not as described
+CUST_000126,TXN_00000541,2026-04-12 02:13:35,phone,thanked for fast shipping
+CUST_000412,TXN_00000543,2026-05-25 02:13:35,chat,package not delivered
+CUST_000534,TXN_00000547,2026-04-08 02:13:35,email,order not received
+CUST_000256,TXN_00000549,2026-06-03 02:13:35,chat,delivery date inquiry
+CUST_000450,TXN_00000552,2026-05-20 02:13:35,email,return initiated
+CUST_000300,TXN_00000554,2026-07-01 02:13:35,chat,still waiting for delivery
+CUST_000409,TXN_00000557,2026-08-18 02:13:35,email,still waiting for delivery
+CUST_000165,TXN_00000558,2026-07-05 02:13:35,chat,delivery date inquiry
+CUST_000322,TXN_00000576,2026-06-08 02:13:35,chat,package not delivered
+CUST_000412,TXN_00000578,2026-05-24 02:13:35,phone,delivery date inquiry
+CUST_000091,TXN_00000581,2026-05-27 02:13:35,email,product quality issue
+CUST_000287,TXN_00000582,2026-04-17 02:13:35,phone,when will order arrive
+CUST_000215,TXN_00000583,2026-04-24 02:13:35,chat,asked about delivery delay
+CUST_000082,TXN_00000587,2026-07-06 02:13:35,chat,cancellation requested
+CUST_000349,TXN_00000588,2026-07-12 02:13:35,chat,shipment never arrived
+CUST_000190,TXN_00000589,2026-06-06 02:13:35,support_ticket,package not delivered
+CUST_000304,TXN_00000590,2026-05-19 02:13:35,support_ticket,cancellation requested
+CUST_000276,TXN_00000597,2026-08-02 02:13:35,phone,cancellation requested
+CUST_000525,TXN_00000598,2026-04-24 02:13:35,phone,order not received
+CUST_000131,TXN_00000599,2026-07-16 02:13:35,email,still waiting for delivery
+CUST_000203,TXN_00000601,2026-06-11 02:13:35,email,order not received
+CUST_000033,TXN_00000603,2026-06-19 02:13:35,email,delivery date inquiry
+CUST_000423,TXN_00000604,2026-07-03 02:13:35,phone,item not as described
+CUST_000111,TXN_00000605,2026-05-11 02:13:35,phone,item not as described
+CUST_000449,TXN_00000606,2026-08-05 02:13:35,phone,order not received
+CUST_000190,TXN_00000610,2026-05-21 02:13:35,phone,where is my order
+CUST_000498,TXN_00000611,2026-05-03 02:13:35,support_ticket,package not delivered
+CUST_000051,TXN_00000613,2026-05-06 02:13:35,support_ticket,return initiated
+CUST_000305,TXN_00000618,2026-06-23 02:13:35,phone,refund requested
+CUST_000299,TXN_00000622,2026-08-25 02:13:35,email,package not delivered
+CUST_000590,TXN_00000628,2026-05-21 02:13:35,support_ticket,confirmed delivery received
+CUST_000303,TXN_00000629,2026-04-19 02:13:35,email,confirmed delivery received
+CUST_000122,TXN_00000633,2026-04-19 02:13:35,email,where is my order
+CUST_000475,TXN_00000643,2026-07-28 02:13:35,phone,where is my order
+CUST_000372,TXN_00000644,2026-04-14 02:13:35,chat,where is my order
+CUST_000063,TXN_00000649,2026-03-22 02:13:35,email,asked for tracking number
+CUST_000528,TXN_00000651,2026-05-28 02:13:35,chat,refund requested
+CUST_000152,TXN_00000652,2026-04-12 02:13:35,chat,inquired about shipping status
+CUST_000217,TXN_00000653,2026-05-19 02:13:35,phone,order not received
+CUST_000296,TXN_00000655,2026-05-13 02:13:35,email,return initiated
+CUST_000013,TXN_00000656,2026-06-30 02:13:35,email,package not delivered
+CUST_000478,TXN_00000657,2026-06-14 02:13:35,email,thanked for fast shipping
+CUST_000107,TXN_00000658,2026-04-16 02:13:35,support_ticket,shipment never arrived
+CUST_000334,TXN_00000660,2026-06-26 02:13:35,support_ticket,package not delivered
+CUST_000319,TXN_00000662,2026-03-17 02:13:35,email,order not received
+CUST_000555,TXN_00000666,2026-07-22 02:13:35,chat,confirmed delivery received
+CUST_000105,TXN_00000667,2026-07-30 02:13:35,phone,where is my order
+CUST_000259,TXN_00000670,2026-08-01 02:13:35,phone,package not delivered
+CUST_000229,TXN_00000673,2026-07-17 02:13:35,chat,order not received
+CUST_000491,TXN_00000675,2026-04-01 02:13:35,phone,asked for tracking number
+CUST_000466,TXN_00000677,2026-07-19 02:13:35,phone,delivery date inquiry
+CUST_000337,TXN_00000678,2026-07-22 02:13:35,chat,complained item damaged
+CUST_000171,TXN_00000679,2026-07-29 02:13:35,support_ticket,complained item damaged
+CUST_000325,TXN_00000684,2026-06-11 02:13:35,phone,item not as described
+CUST_000592,TXN_00000687,2026-08-12 02:13:35,support_ticket,shipment never arrived
+CUST_000197,TXN_00000692,2026-06-21 02:13:35,chat,package not delivered
+CUST_000096,TXN_00000693,2026-07-11 02:13:35,email,return initiated
+CUST_000565,TXN_00000695,2026-04-19 02:13:35,phone,return initiated
+CUST_000064,TXN_00000697,2026-05-25 02:13:35,support_ticket,thanked for fast shipping
+CUST_000000,TXN_00000703,2026-04-18 02:13:35,support_ticket,complained item damaged
+CUST_000555,TXN_00000704,2026-07-21 02:13:35,support_ticket,refund requested
+CUST_000320,TXN_00000705,2026-08-07 02:13:35,support_ticket,order not received
+CUST_000332,TXN_00000706,2026-06-02 02:13:35,email,still waiting for delivery
+CUST_000365,TXN_00000707,2026-07-06 02:13:35,support_ticket,item not as described
+CUST_000409,TXN_00000708,2026-06-02 02:13:35,phone,complained item damaged
+CUST_000072,TXN_00000711,2026-08-10 02:13:35,support_ticket,confirmed delivery received
+CUST_000229,TXN_00000716,2026-05-28 02:13:35,support_ticket,confirmed delivery received
+CUST_000503,TXN_00000717,2026-05-30 02:13:35,support_ticket,cancellation requested
+CUST_000570,TXN_00000721,2026-03-25 02:13:35,chat,where is my order
+CUST_000497,TXN_00000723,2026-05-29 02:13:35,chat,confirmed delivery received
+CUST_000024,TXN_00000731,2026-04-07 02:13:35,phone,still waiting for delivery
+CUST_000081,TXN_00000736,2026-07-09 02:13:35,chat,confirmed delivery received
+CUST_000575,TXN_00000740,2026-03-29 02:13:35,chat,asked for tracking number
+CUST_000105,TXN_00000741,2026-05-26 02:13:35,email,where is my order
+CUST_000378,TXN_00000743,2026-04-02 02:13:35,phone,return initiated
+CUST_000210,TXN_00000746,2026-04-05 02:13:35,support_ticket,package not delivered
+CUST_000518,TXN_00000749,2026-03-28 02:13:35,phone,package not delivered
+CUST_000114,TXN_00000750,2026-04-01 02:13:35,email,where is my order
+CUST_000280,TXN_00000753,2026-04-12 02:13:35,chat,thanked for fast shipping
+CUST_000283,TXN_00000754,2026-03-28 02:13:35,support_ticket,cancellation requested
+CUST_000104,TXN_00000755,2026-04-09 02:13:35,chat,confirmed delivery received
+CUST_000523,TXN_00000757,2026-06-27 02:13:35,chat,confirmed delivery received
+CUST_000077,TXN_00000758,2026-06-05 02:13:35,email,delivery date inquiry
+CUST_000580,TXN_00000759,2026-04-26 02:13:35,email,delivery date inquiry
+CUST_000469,TXN_00000762,2026-04-21 02:13:35,phone,when will order arrive
+CUST_000200,TXN_00000764,2026-06-02 02:13:35,email,confirmed delivery received
+CUST_000067,TXN_00000767,2026-05-05 02:13:35,chat,shipment never arrived
+CUST_000021,TXN_00000773,2026-05-31 02:13:35,phone,cancellation requested
+CUST_000393,TXN_00000777,2026-04-16 02:13:35,phone,where is my order
+CUST_000450,TXN_00000778,2026-04-13 02:13:35,phone,when will order arrive
+CUST_000540,TXN_00000780,2026-05-06 02:13:35,phone,still waiting for delivery
+CUST_000026,TXN_00000781,2026-05-17 02:13:35,support_ticket,confirmed delivery received
+CUST_000383,TXN_00000783,2026-07-20 02:13:35,email,shipment never arrived
+CUST_000376,TXN_00000786,2026-06-26 02:13:35,email,asked for tracking number
+CUST_000085,TXN_00000789,2026-07-06 02:13:35,phone,still waiting for delivery
+CUST_000124,TXN_00000793,2026-05-09 02:13:35,support_ticket,confirmed delivery received
+CUST_000243,TXN_00000796,2026-07-05 02:13:35,phone,shipment never arrived
+CUST_000518,TXN_00000797,2026-04-18 02:13:35,chat,asked for tracking number
+CUST_000341,TXN_00000798,2026-06-29 02:13:35,chat,confirmed delivery received
+CUST_000117,TXN_00000802,2026-04-12 02:13:35,phone,package not delivered
+CUST_000225,TXN_00000808,2026-06-04 02:13:35,chat,product quality issue
+CUST_000387,TXN_00000811,2026-06-17 02:13:35,email,still waiting for delivery
+CUST_000524,TXN_00000820,2026-05-03 02:13:35,support_ticket,refund requested
+CUST_000190,TXN_00000823,2026-06-04 02:13:35,chat,shipment never arrived
+CUST_000169,TXN_00000825,2026-04-03 02:13:35,support_ticket,still waiting for delivery
+CUST_000101,TXN_00000826,2026-03-29 02:13:35,chat,asked for tracking number
+CUST_000584,TXN_00000827,2026-07-25 02:13:35,phone,order not received
+CUST_000409,TXN_00000829,2026-06-08 02:13:35,phone,shipment never arrived
+CUST_000274,TXN_00000830,2026-06-30 02:13:35,email,order not received
+CUST_000247,TXN_00000833,2026-08-06 02:13:35,support_ticket,order not received
+CUST_000244,TXN_00000834,2026-05-29 02:13:35,phone,shipment never arrived
+CUST_000443,TXN_00000836,2026-05-19 02:13:35,chat,where is my order
+CUST_000395,TXN_00000837,2026-05-23 02:13:35,phone,where is my order
+CUST_000284,TXN_00000843,2026-04-09 02:13:35,phone,asked for tracking number
+CUST_000421,TXN_00000844,2026-06-22 02:13:35,email,package not delivered
+CUST_000337,TXN_00000850,2026-07-18 02:13:35,phone,still waiting for delivery
+CUST_000570,TXN_00000854,2026-04-14 02:13:35,chat,return initiated
+CUST_000329,TXN_00000859,2026-05-24 02:13:35,phone,still waiting for delivery
+CUST_000426,TXN_00000861,2026-05-10 02:13:35,email,thanked for fast shipping
+CUST_000513,TXN_00000863,2026-07-03 02:13:35,email,item not as described
+CUST_000080,TXN_00000864,2026-06-25 02:13:35,phone,where is my order
+CUST_000155,TXN_00000866,2026-04-14 02:13:35,support_ticket,still waiting for delivery
+CUST_000395,TXN_00000870,2026-04-27 02:13:35,phone,package not delivered
+CUST_000005,TXN_00000872,2026-04-26 02:13:35,chat,when will order arrive
+CUST_000073,TXN_00000873,2026-04-21 02:13:35,email,still waiting for delivery
+CUST_000347,TXN_00000879,2026-08-07 02:13:35,email,item not as described
+CUST_000087,TXN_00000881,2026-06-30 02:13:35,phone,delivery date inquiry
+CUST_000586,TXN_00000883,2026-04-12 02:13:35,email,still waiting for delivery
+CUST_000330,TXN_00000891,2026-07-11 02:13:35,phone,refund requested
+CUST_000140,TXN_00000892,2026-03-24 02:13:35,chat,delivery date inquiry
+CUST_000255,TXN_00000896,2026-05-24 02:13:35,phone,confirmed delivery received
+CUST_000382,TXN_00000899,2026-03-31 02:13:35,email,where is my order
+CUST_000285,TXN_00000900,2026-08-17 02:13:35,email,cancellation requested
+CUST_000411,TXN_00000901,2026-07-31 02:13:35,chat,order not received
+CUST_000238,TXN_00000903,2026-05-29 02:13:35,phone,thanked for fast shipping
+CUST_000093,TXN_00000904,2026-07-31 02:13:35,email,thanked for fast shipping
+CUST_000452,TXN_00000907,2026-05-06 02:13:35,chat,thanked for fast shipping
+CUST_000227,TXN_00000909,2026-07-22 02:13:35,phone,refund requested
+CUST_000002,TXN_00000910,2026-05-14 02:13:35,email,asked about delivery delay
+CUST_000509,TXN_00000911,2026-03-30 02:13:35,chat,still waiting for delivery
+CUST_000529,TXN_00000912,2026-04-13 02:13:35,email,return initiated
+CUST_000215,TXN_00000914,2026-05-28 02:13:35,phone,shipment never arrived
+CUST_000286,TXN_00000917,2026-06-13 02:13:35,support_ticket,return initiated
+CUST_000030,TXN_00000918,2026-07-22 02:13:35,email,thanked for fast shipping
+CUST_000101,TXN_00000920,2026-03-26 02:13:35,phone,order not received
+CUST_000500,TXN_00000921,2026-05-05 02:13:35,chat,order not received
+CUST_000014,TXN_00000922,2026-05-08 02:13:35,phone,shipment never arrived
+CUST_000104,TXN_00000923,2026-06-05 02:13:35,chat,delivery date inquiry
+CUST_000171,TXN_00000924,2026-04-26 02:13:35,phone,order not received
+CUST_000213,TXN_00000933,2026-03-13 02:13:35,support_ticket,return initiated
+CUST_000592,TXN_00000935,2026-03-30 02:13:35,email,refund requested
+CUST_000484,TXN_00000939,2026-06-01 02:13:35,phone,thanked for fast shipping
+CUST_000406,TXN_00000940,2026-06-02 02:13:35,support_ticket,where is my order
+CUST_000100,TXN_00000942,2026-03-08 02:13:35,phone,complained item damaged
+CUST_000522,TXN_00000943,2026-04-08 02:13:35,chat,thanked for fast shipping
+CUST_000511,TXN_00000948,2026-05-25 02:13:35,chat,shipment never arrived
+CUST_000163,TXN_00000949,2026-06-19 02:13:35,support_ticket,shipment never arrived
+CUST_000277,TXN_00000951,2026-04-19 02:13:35,email,complained item damaged
+CUST_000137,TXN_00000952,2026-05-18 02:13:35,email,complained item damaged
+CUST_000424,TXN_00000956,2026-07-17 02:13:35,phone,refund requested
+CUST_000480,TXN_00000959,2026-04-05 02:13:35,chat,still waiting for delivery
+CUST_000019,TXN_00000960,2026-07-18 02:13:35,chat,package not delivered
+CUST_000424,TXN_00000963,2026-03-10 02:13:35,chat,inquired about shipping status
+CUST_000371,TXN_00000964,2026-03-29 02:13:35,chat,package not delivered
+CUST_000049,TXN_00000965,2026-07-14 02:13:35,support_ticket,package not delivered
+CUST_000352,TXN_00000966,2026-05-02 02:13:35,phone,confirmed delivery received
+CUST_000338,TXN_00000967,2026-07-20 02:13:35,phone,package not delivered
+CUST_000516,TXN_00000968,2026-08-07 02:13:35,phone,delivery date inquiry
+CUST_000199,TXN_00000971,2026-06-30 02:13:35,chat,shipment never arrived
+CUST_000292,TXN_00000973,2026-08-10 02:13:35,phone,cancellation requested
+CUST_000592,TXN_00000974,2026-06-06 02:13:35,support_ticket,confirmed delivery received
+CUST_000243,TXN_00000975,2026-08-12 02:13:35,support_ticket,where is my order
+CUST_000382,TXN_00000977,2026-05-10 02:13:35,phone,still waiting for delivery
+CUST_000131,TXN_00000979,2026-04-19 02:13:35,support_ticket,asked about delivery delay
+CUST_000527,TXN_00000984,2026-04-01 02:13:35,support_ticket,thanked for fast shipping
+CUST_000401,TXN_00000985,2026-08-08 02:13:35,email,return initiated
+CUST_000147,TXN_00000988,2026-07-23 02:13:35,chat,confirmed delivery received
+CUST_000402,TXN_00000989,2026-03-19 02:13:35,email,return initiated
+CUST_000350,TXN_00000990,2026-05-21 02:13:35,chat,confirmed delivery received
+CUST_000068,TXN_00000991,2026-08-19 02:13:35,support_ticket,order not received
+CUST_000555,TXN_00000994,2026-06-30 02:13:35,phone,asked for tracking number
+CUST_000335,TXN_00000995,2026-07-29 02:13:35,chat,cancellation requested
+CUST_000247,TXN_00000999,2026-08-10 02:13:35,phone,order not received

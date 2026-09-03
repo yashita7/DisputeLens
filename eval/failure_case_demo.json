@@ -1,0 +1,37 @@
+{
+  "case_id": "CB_00000855",
+  "dataset": "heldout",
+  "pattern": "masked_evidence_conservative_decision",
+  "description": "Masked critical evidence leads to false negative. Similar to CB_00000227 pattern from dev set.",
+  "true_label": "DEFENSIBLE",
+  "predicted_decision": "DO_NOT_CONTEST",
+  "score": 40,
+  "confidence": "low-medium",
+  "masked_fields": [
+    "delivery_confirmed"
+  ],
+  "evidence": {
+    "amount": 0.0,
+    "reason_code": "duplicate_charge",
+    "payment_confirmed": "True",
+    "delivery_confirmed": "not_available",
+    "signature_captured": "False",
+    "refund_issued": "False",
+    "has_unresolved_complaint": "True",
+    "prior_chargebacks": 1,
+    "account_age": 0,
+    "order_status": "shipped"
+  },
+  "fired_rules": [
+    "+30 payment_confirmed",
+    "+0 delivery_confirmed (not_available)",
+    "+10 no_refund_issued"
+  ],
+  "why_conservative": "Missing critical delivery evidence (marked not_available) reduces the score below CONTEST threshold. System prioritizes avoiding false positives when evidence is incomplete.",
+  "comparison_to_dev": {
+    "dev_example": "CB_00000227",
+    "same_pattern": "Masked delivery_confirmed + risk factors \u2192 conservative decision",
+    "difference": "Dev case scored 30, heldout case scored 40 - both below DO_NOT_CONTEST threshold"
+  },
+  "note": "This demonstrates the system's conservative approach when critical evidence is unavailable. In production, these cases would benefit from manual evidence gathering before making final decision."
+}

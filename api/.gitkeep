@@ -1,0 +1,4 @@
+# API endpoints will go here
+# - main.py (FastAPI app)
+# - models.py (Pydantic schemas)
+# - routes.py

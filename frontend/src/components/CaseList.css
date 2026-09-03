@@ -1,0 +1,114 @@
+.case-list {
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.case-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.case-list-header h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.filters {
+  display: flex;
+  gap: 1rem;
+}
+
+.filter-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.filter-checkbox input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.filter-checkbox span {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.case-count {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.case-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--bg-card);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.case-table thead {
+  background: var(--bg-hover);
+  border-bottom: 1px solid var(--border);
+}
+
+.case-table th {
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-secondary);
+}
+
+.case-table th.sortable {
+  cursor: pointer;
+  user-select: none;
+}
+
+.case-table th.sortable:hover {
+  color: var(--text-primary);
+}
+
+.case-table tbody tr {
+  border-bottom: 1px solid var(--border);
+  transition: background 0.15s;
+}
+
+.case-table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.case-row {
+  cursor: pointer;
+}
+
+.case-row:hover {
+  background: var(--bg-hover);
+}
+
+.case-table td {
+  padding: 1rem;
+}
+
+.gap-indicator {
+  color: var(--amber);
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+}
+
+.noise-indicator {
+  font-size: 1.2rem;
+  opacity: 0.7;
+}
