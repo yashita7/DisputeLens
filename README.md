@@ -454,8 +454,10 @@ Full case detail with LLM summary.
   },
   "audit_trail": [...],
   "metadata": {
-    "noise_case": true,
-    "noise_type": "MISSING_EVIDENCE",
+    "has_gaps": true,
+    "masked_field": "delivery_confirmed",
+    "is_noise_case": false,
+    "noise_type": null,
     "true_label": "DEFENSIBLE"
   }
 }
@@ -464,20 +466,20 @@ Full case detail with LLM summary.
 ### GET /metrics
 System performance metrics.
 
-**Response**:
+**Response** (example showing heldout-equivalent numbers):
 ```json
 {
   "summary": {
-    "precision": 0.966,
-    "recall": 0.953,
-    "f1": 0.960,
-    "escalation_rate": 0.230
+    "precision": 0.953,
+    "recall": 0.946,
+    "f1": 0.950,
+    "escalation_rate": 0.213
   },
   "confusion_matrix": {
-    "tp": 284,
-    "fp": 10,
-    "fn": 14,
-    "tn": 231
+    "tp": 123,
+    "fp": 6,
+    "fn": 7,
+    "tn": 100
   },
   "decisions": {...},
   "cost_estimates": {...},

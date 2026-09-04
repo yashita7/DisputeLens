@@ -145,18 +145,26 @@ def format_evidence_items(case: Dict[str, Any]) -> List[Dict[str, Any]]:
         'delivered_at': 'delivery_confirmed'
     }
     
-    # Key evidence fields to display
+    # Key evidence fields to display (all fields the LLM can reference)
     evidence_fields = [
         ('payment_confirmed', 'Payment Confirmed'),
         ('delivery_confirmed', 'Delivery Confirmed'),
         ('delivered_at', 'Delivered At'),
+        ('shipped_at', 'Shipped At'),
         ('signature_captured', 'Signature Captured'),
         ('has_unresolved_complaint', 'Has Unresolved Complaint'),
         ('refund_issued', 'Refund Issued'),
+        ('order_status', 'Order Status'),
+        ('product_category', 'Product Category'),
         ('prior_chargebacks', 'Prior Chargebacks'),
+        ('prior_refunds', 'Prior Refunds'),
+        ('prior_orders', 'Prior Orders'),
         ('account_age_days', 'Account Age (Days)'),
+        ('has_communication', 'Has Communication'),
+        ('communication_count', 'Communication Count'),
         ('transaction_amount', 'Transaction Amount'),
         ('chargeback_amount', 'Chargeback Amount'),
+        ('payment_method', 'Payment Method'),
     ]
     
     for field_name, display_name in evidence_fields:
@@ -236,8 +244,14 @@ def list_chargebacks():
 
 
 @app.get("/chargebacks/{chargeback_id}")
-def get_chargeback_detail(chargeback_id: str):
-    """Get full case detail with evidence, LLM summary, decision, audit trail."""
+def get_chargeback_detail(chargeback_id: str, debug: bool = False):
+    """
+    Get full case detail with evidence, LLM summary, decision, audit trail.
+    
+    Args:
+        chargeback_id: The chargeback identifier
+        debug: If True, include ground truth fields (true_label, is_noise_case, noise_type) in metadata
+    """
     import time
     
     # Retrieval
@@ -294,6 +308,18 @@ def get_chargeback_detail(chargeback_id: str):
     # Build audit trail
     audit_trail = build_audit_trail(chargeback_id, retrieval_time, rules_time, llm_time)
     
+    # Build metadata - gate ground truth fields behind debug parameter
+    metadata = {
+        "has_gaps": '_masked_field' in case,
+        "masked_field": case.get('_masked_field')
+    }
+    
+    # Only include ground truth/evaluation fields in debug mode
+    if debug:
+        metadata["is_noise_case"] = case.get('noise_case', False)
+        metadata["noise_type"] = case.get('noise_type')
+        metadata["true_label"] = case.get('true_label')
+    
     result = {
         "chargeback_id": chargeback_id,
         "transaction_id": case['transaction_id'],
@@ -308,13 +334,7 @@ def get_chargeback_detail(chargeback_id: str):
         "fired_rules": fired_rules,
         "llm_summary": llm_summary,
         "audit_trail": audit_trail,
-        "metadata": {
-            "has_gaps": '_masked_field' in case,
-            "masked_field": case.get('_masked_field'),
-            "is_noise_case": case.get('noise_case', False),
-            "noise_type": case.get('noise_type'),
-            "true_label": case.get('true_label')  # For evaluation only
-        }
+        "metadata": metadata
     }
     
     # Sanitize NaN values
