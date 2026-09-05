@@ -66,54 +66,49 @@ function MetricsView() {
       <section className="confusion-section">
         <h2>Confusion Matrix</h2>
         <div className="confusion-matrix">
-          <div className="matrix-labels">
-            <div className="matrix-label-y">
-              <span>Predicted</span>
-            </div>
-            <div className="matrix-label-x">
-              <span>Actual</span>
-            </div>
+          <div className="matrix-corner"></div>
+          
+          <div className="matrix-label-actual">
+            <span>Actual</span>
           </div>
-          <div className="matrix-grid">
-            <div className="matrix-headers-x">
-              <div></div>
-              <div className="matrix-header">Defensible</div>
-              <div className="matrix-header">Not Defensible</div>
-            </div>
-            <div className="matrix-row">
-              <div className="matrix-header">Contest</div>
-              <div 
-                className="matrix-cell tp"
-                style={{ opacity: 0.3 + (0.7 * cm.true_positive / maxVal) }}
-              >
-                <div className="cell-label">True Positive</div>
-                <div className="cell-value">{cm.true_positive}</div>
-              </div>
-              <div 
-                className="matrix-cell fp"
-                style={{ opacity: 0.3 + (0.7 * cm.false_positive / maxVal) }}
-              >
-                <div className="cell-label">False Positive</div>
-                <div className="cell-value">{cm.false_positive}</div>
-              </div>
-            </div>
-            <div className="matrix-row">
-              <div className="matrix-header">Don't Contest</div>
-              <div 
-                className="matrix-cell fn"
-                style={{ opacity: 0.3 + (0.7 * cm.false_negative / maxVal) }}
-              >
-                <div className="cell-label">False Negative</div>
-                <div className="cell-value">{cm.false_negative}</div>
-              </div>
-              <div 
-                className="matrix-cell tn"
-                style={{ opacity: 0.3 + (0.7 * cm.true_negative / maxVal) }}
-              >
-                <div className="cell-label">True Negative</div>
-                <div className="cell-value">{cm.true_negative}</div>
-              </div>
-            </div>
+          
+          <div className="matrix-label-predicted">
+            <span>Predicted</span>
+          </div>
+          
+          <div className="matrix-col-header">Defensible</div>
+          <div className="matrix-col-header">Not Defensible</div>
+          
+          <div className="matrix-row-header">Contest</div>
+          <div 
+            className="matrix-cell tp"
+            style={{ opacity: 0.3 + (0.7 * cm.true_positive / maxVal) }}
+          >
+            <div className="cell-label">True Positive</div>
+            <div className="cell-value">{cm.true_positive}</div>
+          </div>
+          <div 
+            className="matrix-cell fp"
+            style={{ opacity: 0.3 + (0.7 * cm.false_positive / maxVal) }}
+          >
+            <div className="cell-label">False Positive</div>
+            <div className="cell-value">{cm.false_positive}</div>
+          </div>
+          
+          <div className="matrix-row-header">Don't Contest</div>
+          <div 
+            className="matrix-cell fn"
+            style={{ opacity: 0.3 + (0.7 * cm.false_negative / maxVal) }}
+          >
+            <div className="cell-label">False Negative</div>
+            <div className="cell-value">{cm.false_negative}</div>
+          </div>
+          <div 
+            className="matrix-cell tn"
+            style={{ opacity: 0.3 + (0.7 * cm.true_negative / maxVal) }}
+          >
+            <div className="cell-label">True Negative</div>
+            <div className="cell-value">{cm.true_negative}</div>
           </div>
         </div>
       </section>

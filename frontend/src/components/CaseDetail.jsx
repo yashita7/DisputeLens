@@ -71,15 +71,10 @@ function CaseDetail({ caseId, onBack }) {
     }
   }
 
-  const getConfidencePercent = (confidence) => {
-    switch(confidence) {
-      case 'high': return 90
-      case 'medium-high': return 75
-      case 'medium': return 55
-      case 'low-medium': return 35
-      case 'low': return 20
-      default: return 50
-    }
+  const getConfidencePercent = (score) => {
+    // Score ranges from 0 to 100 (sum of all positive rule weights)
+    // Map directly to percentage for gauge display
+    return Math.min(100, Math.max(0, score))
   }
 
   if (loading) {
@@ -95,7 +90,7 @@ function CaseDetail({ caseId, onBack }) {
     return <div className="error">Case not found</div>
   }
 
-  const confidencePercent = getConfidencePercent(caseData.confidence)
+  const confidencePercent = getConfidencePercent(caseData.score)
 
   return (
     <div className="case-detail">
